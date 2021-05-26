@@ -1,0 +1,24 @@
+{
+  "name": "hashing-algo",
+  "version": "1.0.0",
+  "description": "A repo to test hashing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukorito/hashing-algo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukorito/hashing-algo/issues"
+  },
+  "homepage": "https://github.com/lukorito/hashing-algo#readme",
+  "dependencies": {
+    "base-58": "^0.0.1",
+    "blake2": "^4.0.2"
+  }
+}
