@@ -22,8 +22,7 @@ const hashEmailBuffer = blake
   .createHash("blake2b", { digestLength: 32 })
   .update(Buffer.from("email address"))
   .end()
-  .read()
-  .slice(0, 4);
+  .read();
 
 const preHashValue = Buffer.concat([
   getAccountTypeHex("user"),
